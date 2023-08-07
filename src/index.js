@@ -3,13 +3,13 @@ const botao = document.querySelector(".botao");
 const p = document.getElementById("valorEnviado");
 
 document.getElementById(`label4`).style.background = "hsl(216, 12%, 54%";
-p.innerHTML = `You selected 5 out of 5`;
+p.innerHTML = `Você selecionou 5 de 5`;
 
 function ValorAnterior() {
   for (let i = 0; i < radio.length; i++) {
     if (radio[i].checked) {
       colocarCor(i);
-      p.innerHTML = `You selected ${i + 1} out of 5`;
+      p.innerHTML = `Você selecionou ${i + 1} de 5`;
     } else {
       tirarCor(i);
     }
