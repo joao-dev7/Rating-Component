@@ -78,7 +78,7 @@
     
     .radio label {
         border-radius: 30px;
-        background: hsl(215, 9%, 26%);
+        background: hsl(213, 10%, 22%);
         cursor: pointer;
         display: flex;
         justify-content: center;
@@ -133,7 +133,7 @@
         flex-direction: column;
         align-items: center;
         font-size: 15px;
-        background-color: hsl(213, 19%, 18%);
+        background-color: hsl(214, 19%, 17%);
         height: 415px;
         width: 420px;
         border-radius: 30px;
@@ -152,7 +152,7 @@
         height: 30px;
         width: 200px;
         border-radius: 30px;
-        background-color:  hsl(215, 9%, 26%);
+        background-color:  hsl(213, 10%, 22%);
     }
     
     .caixaSelecao p {
@@ -174,7 +174,6 @@
         font-weight: 700;
         font-size: 28px;
         line-height: 65px;
-
     }
 
     .attribution { 

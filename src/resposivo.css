@@ -2,101 +2,80 @@
     
     .caixa1 {
         height: 390px;
-        width: 375px;
+        width: 360px;
     }
     
     .estrela {
-        margin-top: 35px;
-        margin-bottom: 20px;
-        margin-left: 32px;
-        background-size: 38%;
-        width: 45px;
-        height: 45px;
+        margin-left: 22px;
+        margin-top: 30px;
+        margin-bottom: -8px;
+        width: 43px;
+        height: 43px;
     }
 
     .textoApresentacao span {
-        font-size: 28px ;
-        word-spacing: 2px;
-        font-weight: 700;
-        line-height: 55px;
+        font-size: 27px ;
+        line-height: 60px;
     }
 
     .textoApresentacao {
-        margin-left: 30px;
-        font-weight: 400;
-        width: 330px;
-        line-height: 24px;
+        margin-left: 20px;
+        font-weight: 700;
+        width: 310px;
     }
-
+    
     .satisfacao {
-        margin-left: 30px;
-        width: 370px;
-    }
-
-    .input-option:after{
-        content: "";
-        clear: both;
+        margin-left: 20px;
+        width: 310px;
     }
 
     .radio {
         float: left;
-        height: 54px;
-        width: 54px;
-        position: relative;
-        margin-top: 10px;
-        margin-bottom: 32px;
+        height: 46px;
+        width: 46px;
+        margin-top: 2px;
+        margin-bottom: 25px;
     }
     
     .radio + .radio {
-        margin-left: 22.6px;
+        margin-left: 20px;
     }
     
-    .radio label {
-        border-radius: 30px;
-        height: 100%;
-    }
       
     .radio label span {
-        font-size: 17px;
+        font-size: 15px;
     }
 
-    .radio label input[type=radio] {
-        width: 100%;
-        height: 100%;
-    }
-    
     .botao {
-        letter-spacing: 3px;
-        height: 45px;
-        width: 360px;
-        border-radius: 30px;
+        height: 53px;
+        width: 310px;
     }
     
     .caixa2 {
-        height: 415px;
-        width: 420px;
+        height: 390px;
+        width: 360px;
     }
 
     .caixa2 #thank-you{
-        margin-top: 50px;
-        height: 25%;
+        margin-top: 35px;
+        height: 28%;
     }
 
     .caixaSelecao {
-        margin-top: 30px;
+        margin-top: 25px;
+        margin-bottom: 15px;
         height: 30px;
-        width: 200px;
-    }
-   
-    .textoEnviado {
-        margin-top: 15px;
-        line-height: 25px;
-        width: 360px;
-    }
-    
-    .textoEnviado span {
-        font-size: 28px;
-        line-height: 65px;
+        width: 190px;
     }
 
+    .textoEnviado {
+        margin-top: 0px;
+        line-height: 24px;
+        width: 350px;
+    }
+
+    .textoEnviado span {
+        line-height: 58px;
+    }
+    
 }
